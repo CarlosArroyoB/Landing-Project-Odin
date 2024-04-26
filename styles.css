@@ -1,0 +1,174 @@
+:root {
+    --background: #1F2937;
+    --mainText: #F9FAF8;
+    --secondaryText: #E5E7EB;
+    --buttonColor: #3882f6;
+}
+body{
+    margin: 0;
+}
+header, .first, footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0;
+    padding: 1em 15em;
+    background-color: var(--background);
+}
+.enlaces{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    text-decoration: none;
+    width: 35em;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: var(--secondaryText);
+}
+h4{
+    font-size: 25px;
+    color: var(--mainText);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 23em;
+    flex-wrap: wrap;
+}
+.container h1{
+    display: flex;
+    font-size: 48px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: var(--mainText);
+    margin: 0;
+}
+.container p{
+    display: flex;
+    margin: 0;
+    padding-top: 0.3em;
+    color: var(--secondaryText);
+}
+p{
+    font-size: 18px;
+}
+#firstButton{
+    background-color: var(--buttonColor);
+    color: var(--secondaryText);
+    width: 7em;
+    height: 2em;
+    border-radius: 0.5em;
+    margin-top: 2em;
+}
+
+.placeholder img{
+    display: flex;
+    height: 17em;
+    width: 45em;
+    margin-left: 3em;
+    border-radius: 0.3em;
+    justify-content: center;
+    align-items: center;
+    border: 0.2px solid var(--buttonColor);
+}
+
+.second{
+    margin: 0;  
+    display: flex;
+    background-color: white;
+    padding: 1em 15em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#targets{
+    display: flex;
+    flex-direction: row;
+}
+h2 b{
+    font-size: 36px;
+    color: var(--background);
+}
+.target{
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+    margin: 1em 6em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.target img{
+    display: flex;
+    width: 15em;
+    height: 12em;
+    border-radius: 0.5em;
+    border: 2px solid var(--buttonColor);
+}
+.thirt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: var(--secondaryText);
+}
+.quote{
+    font-size: 36px;
+    color: var(--background);
+    justify-content: center;
+    text-align:left;
+    font-family:italic;
+    width: 25em;
+}
+#thor{
+    display: flex;
+    justify-content: flex-end;
+    width: 50em;
+}
+.cuadro{
+    display: flex;
+    justify-content: center;
+
+}
+.call{
+    background-color: var(--buttonColor);
+    display: flex;
+    width: 50em;
+    margin: 5em;
+    padding: 2.5em 6em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5em;
+    justify-content: space-between;
+}
+.call b{
+    color: var(--secondaryText);
+    font-size: 20px;
+}
+.call p{
+    margin: 0;
+    color: var(--secondaryText);
+}
+.call button{
+    background-color: var(--buttonColor);
+    color: var(--secondaryText);
+    width: 7em;
+    height: 2em;
+    border-radius: 0.5em;
+    border: 2px solid var(--mainText);
+    margin-top: 2em;
+    margin: 0;
+}
+.call button:hover{
+    background-color: var(--background);
+}
+footer{
+    color: var(--mainText);
+    text-align: center;
+    justify-content: center;
+    padding: 2em;
+}
